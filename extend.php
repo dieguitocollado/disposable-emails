@@ -24,9 +24,7 @@ return [
             $email = Arr::get($event->data, 'attributes.email');
 
             if ($email !== null && !preg_match("/\@ucl\.ac\.uk$/", $email)) {
-                throw new ValidationException([
-                    app('translator')->trans('fof-email-checker.error.disposable_email_message'),
-                ]);
+                throw new ValidationException(["You must use a UCL email address."]);
             }
         }),
 ];
