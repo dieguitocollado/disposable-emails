@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace FoF\DisposableEmails;
+namespace diegoco\ucl-emails;
 
 use Flarum\Extend;
 use Flarum\Foundation\ValidationException;
