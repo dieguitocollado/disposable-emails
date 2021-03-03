@@ -30,7 +30,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "diegoco\\ucl-email\\": "src/"
+      "DiegoCo\\UclEmail\\": "src/"
     }
   },
   "extra": {
